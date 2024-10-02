@@ -26,7 +26,7 @@ class randomgirlPlugin(BasePlugin):
     async def _(self, event: EventContext):
         try:
             text = event.event.text_message
-            if text == "randomgirl" or text == "60s":
+            if text == "randomgirl" or text == "随机美女":
                 event.prevent_default()
                 event.prevent_postorder()
                 # 发送图片
